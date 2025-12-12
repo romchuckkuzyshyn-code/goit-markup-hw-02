@@ -1,13 +1,21 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
-span {
-    color: #4D5AE5;
+.nav-head {
+    font-family: "Raleway" sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo {
+    color: #2e2f42;
 }
 .post-headline {
-    color: #ffffff;
     background-color: #2E2F42;
     font-weight: bold;
     font-size: 56px;
@@ -19,47 +27,78 @@ span {
 .text-link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1,5%;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
 }
 
-.text-link:hover
-.text-link:focus
+.text-link:hover {
+    color: #404bbf;
+}
+.text-link:focus {
+    color: #404bbf;
+}
 
 .text-adress {
-    font-style: 12px;
+    font-style: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
+.text-adress:hover {
+    color: #404bbf;
+}
+
+.text-adress:focus {
+    color: #404bbf;
+}
+
 .post-text-headline {
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #FFFFFF;
 }
 
 .post-headline-button {
-    font-family: var(--font-family);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    cursor: pointer;
 }
 
-h2 {
+.post-headline-button:hover {
+    background-color: #404BBF
+}
+
+.post-headline-button:focus {
+    background-color: #404BBF
+}
+
+.title {
     font-weight: bold;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1,1%;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2E2F42;
 }
 
-h3 {
+.team-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2%;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-p {
+.paragraph {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -70,10 +109,16 @@ ul {
     list-style-type: none;
 }
 
-.team-bg {
-    background-color: #F4F4FD;
+.team-list {
+    background-color: #FFFFFF;
 }
 
-.footer-bg {
+.foot {
     background-color: #2E2F42;
+}
+
+.paragraph-foot{
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
