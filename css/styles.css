@@ -1,0 +1,79 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+}
+
+span {
+    color: #4D5AE5;
+}
+.post-headline {
+    color: #ffffff;
+    background-color: #2E2F42;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 2%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.text-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.text-link:hover
+.text-link:focus
+
+.text-adress {
+    font-style: 12px;
+}
+.post-text-headline {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.post-headline-button {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.team-bg {
+    background-color: #F4F4FD;
+}
+
+.footer-bg {
+    background-color: #2E2F42;
+}
