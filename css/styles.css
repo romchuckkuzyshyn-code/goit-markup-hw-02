@@ -91,7 +91,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
+    background-color: #ffffff;
     cursor: pointer;
 }
 
@@ -106,7 +106,7 @@ body {
 .title {
     font-weight: bold;
     font-size: 36px;
-    line-height: 1,1;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
@@ -138,6 +138,9 @@ ul {
 
 .team-work {
     background-color: #F4F4FD;
+}
+.team {
+    background-color: #F4F4FD
 }
 .foot {
     background-color: #2E2F42;
