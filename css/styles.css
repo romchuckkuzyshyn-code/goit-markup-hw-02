@@ -68,9 +68,6 @@ img {
 }
 
 .logo-container {
-    margin-right: 76px
-}
-.head {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -78,20 +75,39 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+    display: flex;
+    align-items: center;
+}
+.head {
+    /* font-weight: 700; */
+    /* font-size: 18px; */
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    /* text-transform: uppercase; */
+    /* color: #4d5ae5; */
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .main-container {
-    padding: 120px 0;
+    padding: 188px 0;
     background-color: #2e2f42;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .head > .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
+/* .main-container .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
 .nav-list {
     display: flex;
     gap: 40px;
@@ -114,13 +130,13 @@ img {
     max-width: 312px;
 }
 .nav-head {
-    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
 }
 
 .span {
@@ -150,6 +166,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    padding: 24px 0;
 }
 
 .text-link:hover {
@@ -200,9 +217,7 @@ img {
     text-align: center;
     color: #FFFFFF;
     max-width: 496px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 188px;
+    margin: 0 auto;
 }
 
 .post-headline-button {
@@ -217,12 +232,15 @@ img {
     min-width: 169px;
     min-height: 56px;
     border-radius: 4px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     align-items: center;
     border-color: transparent;
     display: block;
     border: none;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .post-headline-button:hover {
@@ -241,7 +259,6 @@ img {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
-    max-width: 218px;
     margin: 0 auto;
     margin-bottom: 72px;
 }
@@ -254,8 +271,13 @@ img {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
-    max-width: 162px;
+    max-width: 218px;
+    margin: 0 auto;
     margin-bottom: 72px;
+}
+
+.team .team-title {
+    text-align: center;
 }
 
 .team-title {
@@ -266,7 +288,6 @@ img {
     color: #2e2f42;
     width: 264px;
     margin-bottom: 8px;
-    margin-top: 32px;
 } 
 
 /* .team-con {
@@ -287,10 +308,38 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #434455
 }
 
 ul {
     list-style-type: none;
+}
+
+.team .paragraph,
+.main-container .paragraph {
+    text-align: center;
+}
+
+.paragraph-app {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.paragraph-title {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.benefits-team>li {
+    width: calc((100% - 72px) / 4);
 }
 
 .team-list {
@@ -304,6 +353,7 @@ ul {
 }
 .team-name {
     padding: 32px 0;
+    text-align: center;
 }
 .work-list {
     background-color: #FFFFFF;
@@ -317,7 +367,7 @@ ul {
 }
 .team {
     background-color: #F4F4FD;
-    padding-bottom: 120px;
+    padding: 120px 0 120px 0;
 }
 .foot {
     background-color: #2E2F42;
@@ -337,5 +387,4 @@ ul {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
