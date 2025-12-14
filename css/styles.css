@@ -82,6 +82,11 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.main-container {
+    padding: 120px 0;
+    background-color: #2e2f42;
+    text-align: center;
+}
 .head > .container {
     display: flex;
     align-items: center;
@@ -129,7 +134,7 @@ img {
 .span-foot {
     color: #f4f4fd;
 }
-.post-headline {
+/* .post-headline {
     background-color: #2E2F42;
     font-weight: bold;
     font-size: 56px;
@@ -137,7 +142,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     padding: 188px 0;
-}
+} */
 
 .text-link {
     font-weight: 500;
@@ -158,13 +163,13 @@ img {
     font-style: normal;
 }
 
-.conteiner-team {
+.container-team {
     display: flex;
     justify-content: space-between;
     gap: 24px;
     margin-top: 72px;
 }
-.adress-conteiner {
+.address-container {
     display: flex;
     gap: 40px;
 }
@@ -253,7 +258,7 @@ img {
     margin-bottom: 72px;
 }
 
-/* .team-title {
+.team-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -262,9 +267,9 @@ img {
     width: 264px;
     margin-bottom: 8px;
     margin-top: 32px;
-} */
+} 
 
-.team-con {
+/* .team-con {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -274,7 +279,7 @@ img {
     margin-bottom: 8px;
     text-align: center;
 
-}
+} */
 
 .paragraph {
     font-weight: 400;
@@ -308,7 +313,6 @@ ul {
     row-gap: 48px;
 }
 .team-work {
-    background-color: #F4F4FD;
     padding: 120px 0 120px 0;
 }
 .team {
@@ -317,11 +321,9 @@ ul {
 }
 .foot {
     background-color: #2E2F42;
-    margin: 0 auto;
     padding: 100px 0;
     outline: 2px solid red;
     outline-offset: -2px;
-    height: 312px;
 }
 
 .paragraph-foot {
