@@ -4,6 +4,38 @@ body {
     background-color: #FFFFFF;
 }
 
+h1, h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.conteiner {
+    margin: 0 auto;
+    max-width: 1158px;
+    padding: 0 16px;
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+.benefits {
+    padding: 120px 0;
+}
+
+.benefits-team {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -12,6 +44,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    padding-right: 76px;
+    margin-right: auto;
 }
 
 .head {
@@ -22,6 +57,20 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    height: 72px;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.head > .conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    margin-right: auto;
 }
 .logo-foot {
     font-family: "Raleway", sans-serif;
@@ -31,6 +80,11 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.conteiner-foot {
+    padding-top: 100px;
+    max-width: 312px;
 }
 .nav-head {
     font-family: "Raleway" sans-serif;
@@ -60,6 +114,12 @@ body {
     line-height: 2;
     letter-spacing: 0.02em;
     text-align: center;
+    
+}
+.post-headline > .conteiner,
+.hero-container {
+    width: 1440px;
+    height: 600px;
 }
 
 .text-link {
@@ -80,6 +140,17 @@ body {
 .address-list {
     font-style: normal;
 }
+
+.conteiner-team {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 72px;
+}
+.adress-conteiner {
+    display: flex;
+    gap: 40px;
+}
 .text-address {
     font-size: 16px;
     line-height: 1.5;
@@ -87,6 +158,8 @@ body {
     color: #434455;
     font-style: normal;
     font-size: normal; 
+    width: 100%;
+    display: block;
 }
 
 .text-address:hover {
@@ -104,6 +177,10 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 188px;
 }
 
 .post-headline-button {
@@ -115,6 +192,13 @@ body {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
+    min-width: 169px;
+    min-height: 56px;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    align-items: center;
+    border-color: transparent;
 }
 
 .post-headline-button:hover {
@@ -133,6 +217,20 @@ body {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    max-width: 218px;
+    margin: 0 auto;
+}
+
+.title-team {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    text-transform: capitalize;
+    max-width: 162px;
+    margin: 0 auto;
 }
 
 .team-title {
@@ -141,6 +239,21 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    width: 264px;
+    margin-bottom: 8px;
+    margin-top: 32px;
+}
+
+.team-con {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    width: 264px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+
 }
 
 .paragraph {
@@ -156,20 +269,42 @@ ul {
 
 .team-list {
     background-color: #FFFFFF;
+    margin-top: 72px;
 }
 
+.pf-list {
+    margin-bottom: 48px;
+}
+.work-list {
+    background-color: #FFFFFF;
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .team-work {
     background-color: #F4F4FD;
+    padding: 120px;
 }
 .team {
     background-color: #F4F4FD
 }
 .foot {
     background-color: #2E2F42;
+    margin: 0 auto;
+    max-width: 1158px;
+    padding: 0 16px;
+    outline: 2px solid red;
+    outline-offset: -2px;
+    height: 312px;
+    width: 1440px;
+
 }
 
 .paragraph-foot{
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 16px;
 }
+
