@@ -22,15 +22,15 @@ img {
 .container {
     margin: 0 auto;
     max-width: 1158px;
-    padding: 0 16px;
-    outline: 2px solid red;
+    padding: 0 15px;
     outline-offset: -2px;
-    align-items: center;
+    display: block;
 }
 
 .head-conteiner {
     max-width: 1158px;
     padding: 0 15px;
+    display: flex;
 }
 
 .visually-hidden {
@@ -64,11 +64,12 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     display: flex;
-    margin-right: 76px;
     align-items: center;
-    padding: 24px 0;
 }
 
+.logo-container {
+    margin-right: 76px
+}
 .head {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -77,13 +78,11 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    height: 72px;
     align-items: center;
-    padding-top: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
-.head > .conteiner {
+.head > .container {
     display: flex;
     align-items: center;
 }
@@ -91,7 +90,7 @@ img {
 .nav-list {
     display: flex;
     gap: 40px;
-    margin-right: auto;
+    padding: 24px 0;
 }
 .logo-foot {
     font-family: "Raleway", sans-serif;
@@ -110,7 +109,7 @@ img {
     max-width: 312px;
 }
 .nav-head {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -138,12 +137,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     padding: 188px 0;
-}
-
-.post-headline > .conteiner,
-.hero-container {
-    width: 1440px;
-    height: 600px;
 }
 
 .text-link {
@@ -260,7 +253,7 @@ img {
     margin-bottom: 72px;
 }
 
-.team-title {
+/* .team-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -269,7 +262,7 @@ img {
     width: 264px;
     margin-bottom: 8px;
     margin-top: 32px;
-}
+} */
 
 .team-con {
     font-weight: 500;
@@ -319,21 +312,19 @@ ul {
     padding: 120px 0 120px 0;
 }
 .team {
-    background-color: #F4F4FD
-    padding: 120px 0;
+    background-color: #F4F4FD;
+    padding-bottom: 120px;
 }
 .foot {
     background-color: #2E2F42;
     margin: 0 auto;
-    max-width: 1158px;
     padding: 100px 0;
     outline: 2px solid red;
     outline-offset: -2px;
     height: 312px;
-    width: 1440px;
 }
 
-.paragraph-foot{
+.paragraph-foot {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
