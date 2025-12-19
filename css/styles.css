@@ -133,8 +133,8 @@ img {
     max-width: 312px;
 }
 .nav-head {
-    font-weight: 700;
-    font-size: 18px;
+    /* font-weight: 700;
+    font-size: 18px; */
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
